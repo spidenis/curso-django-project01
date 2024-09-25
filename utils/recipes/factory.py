@@ -1,6 +1,5 @@
 from random import random
 
-import faker
 
 def make_recipe():
     return {
