@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    # libs
+    'bootstrap5',
     'django_extensions',
+
     # Nosso app
     'recipes',
 ]
