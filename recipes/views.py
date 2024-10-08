@@ -3,6 +3,7 @@ from .models import Recipe
 
 
 # Create your views here.
+
 def home(request):
     recipes = Recipe.objects.filter(
         is_published = True
