@@ -19,7 +19,7 @@ def category(request, category_id):
     if not recipes:
         return render(request, 'recipes/pages/page_not_found.html', context={
         'title': f'Category Not Found',
-        })
+        }, status=404)
     else:
         return render(request, 'recipes/pages/category.html', context={
             'recipes': recipes,
